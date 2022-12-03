@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteAppApi", "src\NoteAppApi.csproj", "{A2BC3269-D8B1-4A77-966F-9C9D4D484F26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{624309C6-B40A-4993-9C02-97225870F0B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteAppApi.Tests", "tests\NoteAppApi.Tests\NoteAppApi.Tests.csproj", "{432796B1-00E0-41FA-B998-0AC7866BDEE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2BC3269-D8B1-4A77-966F-9C9D4D484F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2BC3269-D8B1-4A77-966F-9C9D4D484F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2BC3269-D8B1-4A77-966F-9C9D4D484F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2BC3269-D8B1-4A77-966F-9C9D4D484F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{432796B1-00E0-41FA-B998-0AC7866BDEE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{432796B1-00E0-41FA-B998-0AC7866BDEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{432796B1-00E0-41FA-B998-0AC7866BDEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{432796B1-00E0-41FA-B998-0AC7866BDEE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{432796B1-00E0-41FA-B998-0AC7866BDEE8} = {624309C6-B40A-4993-9C02-97225870F0B4}
+	EndGlobalSection
+EndGlobal
